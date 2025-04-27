@@ -1,0 +1,23 @@
+.app {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #121212; /* Fondo oscuro general */
+  color: #fff; /* Texto blanco general */
+}
+.main-nav {
+  background-color: #282828; /* Fondo de la navegación */
+  padding: 15px 20px;
+  text-align: center;
+}
+.main-nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #b3b3b3;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.main-nav a:hover {
+  color: #1ed760; /* Verde Spotify al pasar el ratón */
+}
